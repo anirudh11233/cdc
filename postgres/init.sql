@@ -4,5 +4,5 @@ CREATE TABLE users (
     email TEXT
 );
 
-INSERT INTO users (id, name, email)
-VALUES (1, 'Alice', 'alice@example.com');
+INSERT INTO users (name, email)
+VALUES ('Alice', 'alice@example.com');
